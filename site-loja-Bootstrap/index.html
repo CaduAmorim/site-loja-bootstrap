@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Marial Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+      .circulo{
+        background: #28a745;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        margin-top: 100px;
+      }
+      .homeTitulos{
+        margin-bottom: 100px;
+      }
+    </style>
+    <title>MinimaliZe</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
+      <a class="navbar-brand" href="#"><img src="./img/mimalizeIcon.jpeg" alt="icone" style="max-width:100%;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#produtos">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contato</a>
+          </li>
+          
+        </ul>
+        <form class="form-inline my-1 my-sm-0" style="margin: 0;">
+          <input class="form-control mr-sm-2" type="search" placeholder="Procurar" aria-label="Search">
+          <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" style="margin: 0;"><i class='fas fa-search fa-rotate-90' style='font-size:18px'></i></button>
+        </form>
+        <form class="form-inline my-1 my-sm-0" style="margin-left: 10px;">
+          <button class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#exampleModal">Cadastrar<i class='fas fa-user-alt' style='font-size:18px'></i></button>
+        </form>
+      </div>
+    </nav>
+    <section class="home">
+      <!--Container Fluid-->
+      <div class="container-fluid">
+        <!--Row-->
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="circulo"></div>
+            <div class="homeTitulos">
+                <h1>sem descontos</h1>
+                <h1>sem cupons</h1>
+                <h1>sem promoções</h1>
+                <h1>sem gatilhos mentais</h1>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div id="carouselExampleControls" class="carousel slide" style="margin: 0;" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="./img/img-home/img1Carrossel.png" style="max-width:100%;display:block;" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/img-home/img2Carrossel.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="./img/img-home/img3Carrossel.png" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+        <!--Fim Row-->
+      </div>
+      <!--Fim Container Fluid-->
+    </section>
+
+    <section class="produtos" id="produtos">
+      <!--Container Fluid-->
+      <div class="container-fluid">
+        <!--Cards de produtos-->
+          <div class="card-deck">
+            <div class="card" style="width: 18rem;">
+              <img src="./img/produtos/produto1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Turtle - Branco</h5>
+                <p class="card-text">R$110,00</p>
+                <a href="#" class="btn btn-success">Ver mais</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./img/produtos/produto2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Camiseta Standard</h5>
+                <p class="card-text">R$89,90</p>
+                <a href="#" class="btn btn-success">Ver mais</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./img/produtos/produto3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Calça Skinny</h5>
+                <p class="card-text">R$180,00</p>
+                <a href="#" class="btn btn-success">Ver mais</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="./img/produtos/produto4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Basic Short</h5>
+                <p class="card-text">R$120,00</p>
+                <a href="#" class="btn btn-success">Ver mais</a>
+              </div>
+            </div>
+          </div>
+        <!--Fim Cards de produtos-->
+        <!--Cards de produtos-->
+        <div class="card-deck">
+          <div class="card" style="width: 18rem;">
+            <img src="./img/produtos/produto5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pack Camiseta Lysa</h5>
+              <p class="card-text">R$280,00</p>
+              <a href="#" class="btn btn-success">Ver mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/produtos/produto6.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pack Camiseta Soft</h5>
+              <p class="card-text">R$110,00</p>
+              <a href="#" class="btn btn-success">Ver mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/produtos/produto7.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pack Camiseta Standard</h5>
+              <p class="card-text">R$120,00</p>
+              <a href="#" class="btn btn-success">Ver mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/produtos/produto8.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pack Camiseta Heavy</h5>
+              <p class="card-text">R$120,00</p>
+              <a href="#" class="btn btn-success">Ver mais</a>
+            </div>
+          </div>
+        </div>
+      <!--Fim Cards de produtos-->
+      </div>
+      <!--Fim Container Fluid-->
+    </section>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Faça seu cadastro</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Nome</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Sobrenome</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Repita sua senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-success">Cadastrar!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="footer" id="footer">
+      <footer class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img src="./img/mimalizeIcon.jpeg" alt="">
+            <small class="d-block mb-3 text-muted">&copy; 2020</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Entre em contato</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">55 55555-5555</a></li>
+              <li><a class="text-muted" href="#">contato@minimalize.com</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <ul class="list-unstyled">
+              <li><a class="text-muted" href="#">Consuma com consciência</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  </body>
+</html>
